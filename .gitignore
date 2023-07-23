@@ -1,0 +1,11 @@
+employee/node_modules/
+customer/node_modules/
+management/node_modules/
+gateway/node_modules/
+gateway/package-lock.json
+employee/package-lock.json
+customer/package-lock.json
+management/package-lock.json
+employee/.env
+customer/.env
+management/.env
