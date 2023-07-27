@@ -15,7 +15,7 @@ router.get('/', async function(req, res, next) {
 router.post('/', jsonParser, async function(req, res, next) {
   let {id} = req.body
   if(id == null) {
-    res.status(400).send("Id provided dish name");
+    res.status(400).send("Not provided id");
     return;
   }
   await orderService.serve(id);
